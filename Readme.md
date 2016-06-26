@@ -1,8 +1,8 @@
 #### Week 3 - Project - Etsy Page - Populate Imitation Etsy Page from JSON data
 
 ##### javaScript Tools
-  * Import using ```import $ from 'jquery' ``` for entire file.
-  * Import using `import {originalItems} from './items.js'` to import only specified variable from file
+  * Import using `import {originalItems} from './items.js'` to import only specified variable from file - _curly braces_
+  * Import using ```import $ from 'jquery' ``` for entire file. _no curly braces_
   * Used `.map()` to pull desired data from original source and gather each set of data into individual **objects** - easier to manage later.
   * Use ```'\x' ``` to **insert special character**
 
