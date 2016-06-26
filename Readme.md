@@ -13,3 +13,5 @@
   * Controlled the number of imgs on page by capping the population loop.
   * Added extra images to a _spilover_ array so I could access them later to populate on a button click.
     *  **Bug Encountered** - Couldn't figure out how to unpopulate the spilover after click.
+
+![gif](http://www.reactiongifs.com/r/ccs.gif)
