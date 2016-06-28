@@ -1,7 +1,7 @@
 import $ from 'jquery';
-import {originalItems} from './items.js'
+import {secondaryItems} from './items.js'
 
-var items = (originalItems.results);
+var items = (secondaryItems.results);
 
 var imgURLs = [];
 var itemPages = [];
@@ -11,7 +11,7 @@ var storeURLs = [];
 var itemPrice = [];
 var itemsFallOver = [];
 
-var items = originalItems.results.map(function (item) {
+var items = secondaryItems.results.map(function (item) {
   return {
     image_url: item.Images[0].url_170x135,
     item_page: item.url,
@@ -96,11 +96,25 @@ $(document).ready(function(){
         $('image-container').lastChild.remove()
       }
     })
+
 });
 
 
+// var run = function() {
+//   console.log(results)
+// }
 
+// var logIt = function() {
+//   console.log(results)
+// }
 
+// var results = $.ajax( {
+//   url: 'https://openapi.etsy.com/v2/listings/active?api_key=zpht0fbrdvf3lz5ys9gcl04j&color34;234;54&color_accuracy=15&limit=25',
+//   dataType: 'JSON',
+//   success: run,
+//   error: logIt
+// })
+// NOT WORKING AND CONFUSED AS TO WHY? - DATA TYPE RETURNED SEEMS TO BE OFF
 
 
 
