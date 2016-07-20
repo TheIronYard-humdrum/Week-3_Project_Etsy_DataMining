@@ -1,4 +1,7 @@
-#### Week 3 - Project - Etsy Page - Populate Imitation Etsy Page from JSON data
+#### Week 3 - Project - Etsy Page
+---
+##### Populate Imitation Etsy Page from JSON data
+---
 
 ##### javaScript Tools
   * Import using `import {originalItems} from './items.js'` to import only specified variable from file - _curly braces_
